@@ -10,7 +10,7 @@ public class Comment {
 
 	private CommentId pk;
 	private String text;
-	
+
 	@EmbeddedId
 	public CommentId getPk() {
 		return pk;
@@ -25,5 +25,5 @@ public class Comment {
 	public void setText(String text) {
 		this.text = text;
 	}
-	
+
 }
